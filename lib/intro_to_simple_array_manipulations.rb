@@ -53,7 +53,7 @@ def using_flatten(instruments)
 end
 
 def using_delete(array, string)
-    array.delete_at(string)
+    array.delete_at(string.to_st)
 end  
 
 # def using_delete_at(famous_robots, integer)
